@@ -28,7 +28,7 @@ if len(list) == 6:
     else:
         print('Обычный')
         
-#Другое решение:
+# Другое решение:
 
 numbers = str(input())
 sum1 = int(numbers[0])+int(numbers[1])+int(numbers[2])
