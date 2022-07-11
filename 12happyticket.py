@@ -10,6 +10,26 @@
 
 Выводить нужно только слово "Счастливый" или "Обычный", с большой буквы.
 
+numbers = input()
+list = str(numbers)
+if len(list) == 6:
+    a = list[0]
+    b = list[1]
+    c = list[2]
+    d = list[3]
+    e = list[4]
+    f = list[5]
+
+    sum1 = int(list[0]) + int(list[1]) + int(list[2])
+    sum2 = int(list[3]) + int(list[4]) + int(list[5])
+
+    if sum1 == sum2:
+        print('Счастливый')
+    else:
+        print('Обычный')
+        
+#Другое решение:
+
 numbers = str(input())
 sum1 = int(numbers[0])+int(numbers[1])+int(numbers[2])
 sum2 = int(numbers[3])+int(numbers[4])+int(numbers[5])
