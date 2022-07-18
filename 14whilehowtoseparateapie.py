@@ -26,3 +26,12 @@ if a > 0 and b > 0:
                 break
 
 print(min(d))
+
+# ИЛИ
+
+a = int(input())
+b = int(input())
+d = a
+while d % b:
+    d += a
+print(d)
