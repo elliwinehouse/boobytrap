@@ -14,3 +14,13 @@ while i <= 100:
     continue
   print(i)
   
+  ИЛИ:
+  
+  while True:
+    num = int(input())
+    if num >= 10 and num <= 100:
+        print(num)
+        continue
+    elif num > 100:
+        break
+ 
