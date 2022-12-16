@@ -1,4 +1,4 @@
-s = input('Введи зашифрованную строку: ')
+s = input('введи зашифрованную строку: ')
 d = 'abcdefghijklmnopqrstuvwxyz'
 
 for k in range(25):
