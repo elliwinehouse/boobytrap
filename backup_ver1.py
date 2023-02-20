@@ -8,12 +8,3 @@ zip_command = "zip -qr {} {}".format(target, ' '.join(source))
 
 if os.system(zip_command) == 0: print('Резервная копия успешно создана в', target)
 else: print('Создание резервной копии НЕ УДАЛОСЬ')
-
-
-
-
-
-
-
-
-
